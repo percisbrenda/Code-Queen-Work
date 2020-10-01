@@ -1,0 +1,27 @@
+img {
+    height: 300px;
+    width: 10cm;
+}
+h1{
+	font-family:cursive;
+    color:white;
+    background-color:rgb(170, 101, 170);
+    text-align: center;
+    padding: 20px;
+}
+html{
+    background-color:tomato;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(47, 255, 109);
+}
+h2{
+    font-family: 'font-family: 'Playfair Display', serif;Times New Roman', Times, serif;
+    color: wheat;
+}
+li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
