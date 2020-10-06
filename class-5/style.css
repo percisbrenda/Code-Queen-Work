@@ -1,0 +1,53 @@
+.red {
+    color: red;
+}
+
+.green {
+    	color:green;
+}
+.blue{
+    color:blue;
+}
+.purple{
+    color:purple;
+}
+.orange{
+    color:orange;
+}
+.lightgreen{
+    color:#6CBE45;
+}
+.brown{
+    color:#996633;
+}
+.lightgrey{
+    color:#A7A9AC;
+}
+.yellow{
+    color:yellow;
+}
+.darkgrey{
+    color:#808183;
+}
+/****** DO NOT CHANGE THE STYLES BELOW THIS ******/
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  h1 {
+      text-align: center;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+  }
+  
+  li {
+      margin: 0;
+      display: inline-block;
+      font-size: 3em;
+      padding: 0.25em;
+  }
+

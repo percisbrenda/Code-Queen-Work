@@ -1,0 +1,61 @@
+.blue {
+    color:blue;
+}
+
+.orange {
+    color:orange;
+}
+.brown{
+    color:brown;
+}
+.green{
+    color:green;
+}
+.pink{
+    color:pink;
+}
+.purple{
+    color:purple;
+}
+.red{
+    color:red;
+}
+.yellow{
+    color:yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+/****** DO NOT CHANGE THE STYLES BELOW THIS ******/
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    display: block;
+    font-size: 1em;
+    padding: 0.25em;
+    font-weight: 700;
+}
+.muni li {
+    display: inline-block;
+}
