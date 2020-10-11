@@ -1,0 +1,53 @@
+.content{
+    padding:15px;
+    align-content: center;
+}
+.signup-button{
+    background-color:lightseagreen;
+    padding:10px;
+    color:white;
+    border-radius: 50px;
+    margin:10px;
+}
+.login-button{
+    background-color:white;
+    color:lightseagreen;
+    border-radius: 2cm;
+    padding:10px;
+    border:solid lightseagreen; 
+    margin: 2px;  
+}
+ul{
+    list-style: none;
+    overflow: auto;
+}
+.footer li{
+    float: left;
+    color:gray;
+    margin:5px;
+}
+.leftside{
+    text-align:center;
+    padding:200px;
+}
+.see{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.big bird{
+    align-items: stretch;
+    display: flex;
+    border:0 solid black;
+    box-sizing: border-box;
+    flex-basis: auto;
+    flex-direction: column;
+    margin: 0px;
+    background-color:rgb(0, 110, 255);
+}
+.big bird{
+    background-image:javascript void(0);
+}
+.login-button h2{
+    color: rgb(7, 170, 199);
+}
+
