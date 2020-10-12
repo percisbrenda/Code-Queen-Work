@@ -1,0 +1,20 @@
+.sample1{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.item{
+    border:1px solid green;
+    background-color:lightgreen;
+    margin:5px;
+    padding:2px;
+    color:black;
+}
+.sample2{
+    display:flex;
+    justify-content:center;
+}
+.sample3{
+    display:flex;
+    justify-content:flex-end;
+}

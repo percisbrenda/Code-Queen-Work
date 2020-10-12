@@ -1,0 +1,30 @@
+.question-one {
+    border: 1px groove red;
+}
+
+.question-two {
+	border:1px solid green;
+}
+
+.question-three {
+    border:1px solid blue;
+    margin:9px;
+    border-radius:2cm;
+}
+
+.question-four {
+border:1px dotted black;
+    padding:10px;
+}
+
+.question-five {
+	border:10px double black;
+    
+    
+}
+
+.question-six {
+    border:10px groove green;
+    padding:5px;
+    margin:5px;
+}
