@@ -1,53 +1,80 @@
 .content{
-    padding:15px;
-    align-content: center;
+    align-content:center;
 }
+.header{
+    display: flex;
+}
+
+
+.whiteside{
+    margin:0px;
+    padding-left: 5cm;
+    padding-right: 5cm;
+    width: 7.5cm;
+    padding-top: 2cm;
+    
+}
+.blueside{
+    margin:0px;
+    background-image: url("https://www.google.com/search?q=twitter+logo+image+download&rlz=1C2AVSK_enUG646UG646&sxsrf=ALeKk01Wql4jRvUxe8E1v4FxS52KmvxT8w:1602504586789&tbm=isch&source=iu&ictx=1&fir=xxiutL6YzPYawM%252CAwPqTUFlf5_WtM%252C_&vet=1&usg=AI4_-kTQT4EmJg17etdG1cssHBwWPPs1Cw&sa=X&ved=2ahUKEwi-yJXlgq_sAhULQRUIHQFdBLkQ9QF6BAgKEEw#imgrc=xxiutL6YzPYawM");
+    background-color: rgb(104, 228, 228);
+    padding-left:5cm;
+    padding-right:5cm;
+    padding-bottom: 5cm;
+    padding-top: 5cm;
+    width:7.5cm ;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+.blueside li{
+    margin: 20px;
+    padding-right: 10px;
+} 
+
+    
 .signup-button{
-    background-color:lightseagreen;
-    padding:10px;
+    background-color:rgb(3, 175, 167);
     color:white;
-    border-radius: 50px;
     margin:10px;
+    border-radius: 2cm;
+}
+.signup-button:hover{
+    background-color: rgb(77, 128, 224);
+}
+.signup-button h2{
+    text-align: center;
 }
 .login-button{
     background-color:white;
-    color:lightseagreen;
-    border-radius: 2cm;
-    padding:10px;
-    border:solid lightseagreen; 
-    margin: 2px;  
+    border: 1px solid lightseagreen;
+    margin: 10px; 
+    border-radius: 2cm; 
+}
+.login-button h2{
+    color: lightseagreen;
+    text-align:center;
+}
+.login-button:hover{
+    background-color: rgb(198, 243, 245);
 }
 ul{
     list-style: none;
     overflow: auto;
+    margin:10px;
 }
 .footer li{
     float: left;
     color:gray;
-    margin:5px;
+    margin:2px;
 }
-.leftside{
-    text-align:center;
-    padding:200px;
-}
+
 .see{
     margin-top: 10px;
     margin-bottom: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
 }
-.big bird{
-    align-items: stretch;
-    display: flex;
-    border:0 solid black;
-    box-sizing: border-box;
-    flex-basis: auto;
-    flex-direction: column;
-    margin: 0px;
-    background-color:rgb(0, 110, 255);
-}
-.big bird{
-    background-image:javascript void(0);
-}
-.login-button h2{
-    color: rgb(7, 170, 199);
+
+h3{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
 }
 
