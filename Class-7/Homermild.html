@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>06.3 jQuery Actions w/ Arguments Practice</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="Homermild.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Can I have another donut?</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png">  
+        <div>
+            <button class="replyYes">Click to reply Yes</button>
+        </div>
+            <p class="homers-reply"> Hmmmm... </p>
+        <div>
+            <button class="replyNo">Click to reply No</button>
+        </div>
+    </body>
+</html>
+<script>
+    // Guided Practice
+$(".replyYes").click(function() {  
+    $(".homers-reply").text("Woo Hoo!");
+    $(".replyYes").css("background-color", "yellow");
+    $("body").css("background-image","'dougnut.jpg'");
+});
+
+//Independent Practice
+$(".replyNo").click(function() {  
+    $(".homers-reply").text("Doh");
+    $(".replyNo").css("background-color","aqua");
+    $("h1").css("color","red");
+    $("img").css("width","300px");
+    $("img").attr("img","'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.heraldguide.com%2Fwp-content%2Fuploads%2F2006%2F10%2Fp1159987920-2-scaled.jpg&imgrefurl=https%3A%2F%2Fwww.heraldguide.com%2Flifestyles%2Fthis-just-in-lsu-ucla-study-proves-obesity-heart-disease-fear-tasty-salads%2F&tbnid=5XiE8gm011C-bM&vet=12ahUKEwigne2YwLvsAhVY4oUKHWPBDQgQMygAegQIARB6..i&docid=r4cHiVaKa66UKM&w=2560&h=1920&q=diversity%20vs%20inclusion&ved=2ahUKEwigne2YwLvsAhVY4oUKHWPBDQgQMygAegQIARB6'");
+     $('img') .attr('img','salad.jpg')
+    
+});    
+      
+    
+
+
+</script>
