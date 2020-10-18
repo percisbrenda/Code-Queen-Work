@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>profile page</title>
+    <link href="profile.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5549086ee5.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <div>
+            <strong><h1>Hello I'm Boris <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fih1.redbubble.net%2Fimage.334362584.4910%2Ffarp%2Csmall%2Cwall_texture%2Cproduct%2C750x1000.u2.jpg&imgrefurl=https%3A%2F%2Fwww.redbubble.com%2Fi%2Fart-print%2FCool-face-emoji-by-totesemotes%2F25414910.1G4ZT&tbnid=cfy8k8MWTuBBmM&vet=12ahUKEwih-v692pHsAhUIbRoKHa6_Bm0QMygAegUIARC2AQ..i&docid=o7Og7WXSiUvuxM&w=750&h=1000&q=pictures%20of%20cool%20emoji&ved=2ahUKEwih-v692pHsAhUIbRoKHa6_Bm0QMygAegUIARC2AQ"></h1></strong>
+            <img class="picture" src="https://www.google.com/search?q=pictures+of+boris&rlz=1C1AVSK_enUG646UG646&sxsrf=ALeKk01lYmvqDHlccF2XipxdJpxsKoqZ7A:1601495927667&tbm=isch&source=iu&ictx=1&fir=8efmcIPBSljfDM%252C5XPXkcDVy9M45M%252C_&vet=1&usg=AI4_-kRceECPxxKOFBhyR5WGjq_5pNzePQ&sa=X&ved=2ahUKEwioxoKf1ZHsAhVmzoUKHeNICtsQ9QF6BAgKEAY#imgrc=8efmcIPBSljfDM">
+            <button class="boris">hide</button>
+            <p>I love Github,UX/UI Design,web development and motorbikes. I launched Le Weapon to teach code to entrepreneurs around the world.</p>
+             <a href="https://www.google.com">Discover Le Weapon</a>
+        </div>
+        <div>
+            <strong><h2>UX/UI Design</h2></strong>
+             <p>I am passionate about UX/UI design<i class="fal fa-ruler-triangle"></i></p>
+        </div>
+        <div>
+            <strong><h2>Frontend Development<i class="fas fa-laptop"></i></h2></strong>
+            <p>I am passionate about <strong>Frontend Development</strong></h4></p>
+        </div>
+        <div>
+            <strong><h2>Motorbikes<i class="fas fa-motorcycle"></i></h2></strong>
+        </div>
+        <div>
+            <p>I am passionate about Motorbikes</p>
+        </div>
+        <div>
+            <strong><h2>Follow me</h2></strong>
+            <button class="follow">click to follow</button>
+            <ul>
+               <li><a href= "www.github.com/boris"><i class="fab fa-github-square"></i></a></li>
+               <li><a href="www.twitter.com/boris"><i class="fab fa-twitter-square"></i></a></li>
+               <li><a href="www.medium.com/boris"><i class="fab fa-medium"></i></a></li>
+           
+            </ul> 
+        </div>
+        
+    </div>
+</body>
+</html>
+<script>
+    $(".boris").click(function() {
+     $(".picture") .hide();  
+    })
+    $(".click to follow").mouseover(function(){
+     $(body) .css("background-color","pink");
+     $(h2).css("color","aqua");   
+    })
+</script>

@@ -1,0 +1,15 @@
+body{
+    align-content:center;
+    margin-block-end: 20px;
+    box-shadow: grey;
+}
+h1{
+    color:blueviolet;
+}
+h2{
+   color:green;
+}
+.content{
+    margin:20px;
+    align-content: center;
+}
