@@ -90,15 +90,11 @@ const students = [
   // - Iterate through the array using a for .. loops
   // - Use conditionals to achieve the goal.
   
-  for (let student of students) {
-    for (let subject of student.subjects) {
-      if (subject.id === 2 && subject.score >= 80 && student.age === 18) {
-        console.log(student.name);
-      }
-    }
-  }
   for(let student of students){
-          console.log(student.name && student.age);
-      
+    $("student-list").append("<div class='studentDiv"+student.name+"<br>"+"Age"+student.age);
+
   }
+
+      
+  
   
