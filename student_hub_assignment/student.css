@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+  background-color: rgb(150, 190, 152);
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(112, 86, 116);
+    color: wheat;
+    margin-bottom: 15px;
+}
+
+
+nav>.register-link{
+    width: 26%;
+    margin-top: 10px;
+    margin-right: 17px;
+}
+nav>.register-link>ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav>.register-link>ul>li{
+font-size: 17px;
+cursor: pointer;
+}
+nav>.register-link>ul>li>a{
+    color: wheat;
+}
+nav>.register-link>ul>li>a:hover{
+    color: rgb(173, 187, 212);
+}
+.header{
+    padding-top: 5px;
+}
+.registered-title{
+    color:wheat;
+}
+
+
+form{
+    width: 40%;
+    border: 1px solid  white;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(176, 181, 185, 0.7);
+}
+.submit-btn{
+    display: flex;
+    justify-content: space-between;
+
+}
+.submit-button{
+ background-color: rgb(80, 26, 71);
+}
+small{
+    color: rgb(167, 64, 64)
+}
+.student-details{
+  width: 50%;
+  background-color: rgba(93, 204, 121, 0.849);
+  border: 2px solid  white;
+}
+.header{
+    color:wheat;
+}
